@@ -1,0 +1,269 @@
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form
+{
+    border: 1px solid black;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    border-bottom: 1px solid black;
+}
+
+.form form label
+{
+    margin-bottom: 10px;
+}
+
+.form form input
+{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form form button {
+    padding: 5px;
+    margin-top: 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.perfil img {
+    max-width: 150px;
+    max-height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.datos {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil_info {
+    padding: 20px;
+}
+
+.botones {
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.botones button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#boton-eliminar {
+    color: white;
+    background-color: red;
+}
+
+#boton-cerrar {
+    color: white;
+    background-color: red;
+}
+
+#boton-borrar {
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#boton-cancelar {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#boton-eliminarHilo {
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#boton-crear {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dialogs dialog {
+    padding: 30px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.dialogs dialog form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogs dialog form label
+{
+    margin-bottom: 10px;
+}
+
+.dialogs dialog form input
+{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.dialogs dialog form button {
+    padding: 5px;
+    margin-top: 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hilos {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hilos2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hilos img {
+    max-width: 150px;
+    max-height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.hilos2 img {
+    width: 300px;
+    max-height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hilos-datos {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.hilos2-datos {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex: 1;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.hilos-imagen {
+    margin-right: 20px;
+}
+
+.formularios {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.hilos-contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#dialog-eliminar-cuenta {
+    padding: 50px;
+}
+
+.hilo-enlace {
+    text-decoration: none;
+    color: inherit;
+}
+
+.comentarios {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
